@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Анимация Аттестация Морса 14 июн 2020</title>
+  <title>Анимация Аттестация Морса 13 июн 2020</title>
   <link rel="stylesheet" href="./lib/leaflet/leaflet.css">
   <link rel="stylesheet" href="./dist/control.playback.css">
   <script src="./lib/leaflet/leaflet.js"></script>
@@ -19,10 +19,10 @@
   <div id='mapid' style=" position: absolute; left: 0; top: 0; right: 0; bottom: 0; width: 100%; height: 100%; overflow: hidden;"></div>
   <script>
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', './data/4890.json', false);
+    xhr.open('GET', './data/mors-att-13-06-2020.json', false);
     xhr.send(null);
     const data = JSON.parse(xhr.responseText);
-    const map = L.map('mapid').setView([59.65634325519204,31.114622773602605], 15);
+    const map = L.map('mapid').setView([60.07781493477523,30.50473420880735], 15);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: ''
     }).addTo(map);
