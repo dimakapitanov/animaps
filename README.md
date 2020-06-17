@@ -1,0 +1,2 @@
+# animaps
+simple animated maps
