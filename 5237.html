@@ -22,7 +22,7 @@
     xhr.open('GET', './data/5237.json', false);
     xhr.send(null);
     const data = JSON.parse(xhr.responseText);
-    const map = L.map('mapid').setView([58.952473,27.789238], 12);
+    const map = L.map('mapid').setView([58.954726,27.824321], 12);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: ''
     }).addTo(map);
